@@ -1,6 +1,21 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: Arial, sans-serif; background: #111; color: #fff; }
 
+     .logo {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: #E50914; /* Netflix Red */
+  text-decoration: none;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  transform: scaleY(1.2);
+}
+
+.logo-accent {
+  color: #ffffff; /* White text for the second half */
+
     .navbar {
       display: flex; justify-content: space-between; align-items: center;
       padding: 10px; background: #222;
@@ -284,3 +299,4 @@
     gap: 8px;
   }
 }
+
